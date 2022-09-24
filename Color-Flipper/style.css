@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+
+    border: solid;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.container{
+    display: grid;
+    flex-direction: column;
+    border: solid;
+    margin-top: 400px;
+    justify-items: center;
+}
+
