@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: #CDCBD6;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  margin-top: 200px;
+  width: 650px;
+  justify-items: center;
+  border: none;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+.heading .underline {
+  height: 0.3rem;
+  width: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fa941b;
+}
+.heading h2 {
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a735a;
+}
+
+.reviews {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  box-shadow: -2px -2px 20px 0px rgba(148, 148, 148, 0.4);
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.reviews:hover {
+  box-shadow: -2px -2px 20px 8px rgb(148, 148, 148);
+}
+.reviews ul {
+  list-style-type: none;
+}
+
+.image-container {
+  margin-top: 10px;
+}
+
+img {
+  margin-top: 20px;
+  width: 150px;
+  border-radius: 100px;
+  box-shadow: 9px -2px 0px 0px #fa941b;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  letter-spacing: 0.25rem;
+}
+
+#job {
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  color: #fa941b;
+  letter-spacing: 0.1rem;
+}
+
+#info {
+  margin: 12px 30px 20px 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.next-button, .prev-button {
+  border: none;
+  margin: 0px 0px 10px 20px;
+  width: 20px;
+}
+
+.random {
+  margin-bottom: 10px;
+  margin-left: 12px;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #fa941b;
+  display: block;
+  align-items: center;
+  padding: 7px 10px 7px 10px;
+  border-radius: 12px;
+  border: none;
+  transition: 0.2s;
+}
+.random:hover {
+  background: #3a735a;
+  cursor: pointer;
+}
+.random:active {
+  background: transparent;
+}
+
+.fa {
+  margin-right: 50px;
+  font-size: 1.8em;
+  color: #3a735a;
+}
+.fa:hover {
+  color: #fa941b;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
